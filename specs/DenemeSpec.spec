@@ -25,6 +25,8 @@ Yotube Scenario ALL
 * Geçmiş
 * Geçmiş Button Kontrol
 * Geçmiş Temizlik
+* Github sekmesine geçiş ve login olma
+* Profili görüntüleme ve repository adresini çekme
 
 Youtube Scenario 2
 -----------
@@ -103,6 +105,8 @@ Youtube Scenario 11
 youtube Scenario 12
 ------------------
 * Mail siteye git
+
+
 
 
 

@@ -1,0 +1,36 @@
+Created by testinium on 9.08.2022
+
+This is a concept file with following syntax for each concept.
+
+# Github sekmesine geçiş ve login olma
+* Open new tab "https://github.com/"
+* Sekmeyi kapat
+* Switch tab "1"
+* Navigate to forward
+* "githubHomePage" elementinin görünür olması kontrol edilir "10"
+* "SignInButton" elementine tıkla
+* "signInToGithubControl" elementinin görünür olması kontrol edilir "10"
+* "userNameOrEmailAddress" elementine "berfinertogluu@gmail.com" değerini yaz
+* "password" elementine "120317Bo." değerini yaz
+* "SignIn" elementine tıkla
+* "2" saniye bekle
+
+# Profili görüntüleme ve repository adresini çekme
+* "ProfilSekmesi" elementine tıkla
+* "signInAsKontrol" elementinin görünür olması kontrol edilir "10"
+* "clickYourProfile" elementinin tıklanabilir olması kontrol edilir "10"
+* "clickYourProfile" elementine tıkla
+* "YourProfileControl" elementinin görünür olması kontrol edilir "10"
+* "clickYourProject" elementine tıkla
+* "2" saniye bekle
+* "clickCode" elementine tıkla
+* "codeControl" elementinin görünür olması kontrol edilir "10"
+* "clickCopyUrl" elementine tıkla
+* "clickCode" elementine tıkla
+* "2" saniye bekle
+* "clickReadMe" elementine tıkla
+* "1" saniye bekle
+* "code" elementine tıkla
+* "1" saniye bekle
+* "code" elementini yapıştır
+* "2" saniye bekle
