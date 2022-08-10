@@ -2,7 +2,9 @@ Created by testinium on 10.08.2022
 
 This is a concept file with following syntax for each concept.
 # Mail siteye git
-* "https://outlook.live.com/owa/" adresine git
+* Open new tab "https://outlook.live.com/owa/"
+* Switch tab "2"
+* Navigate to forward
 * "Mail Oturum Aç Button" elementinin görünür olması kontrol edilir "10"
 * "Mail Oturum Aç Button" elementine tıkla
 * "Mail email" elementinin görünür olması kontrol edilir "10"
@@ -26,3 +28,4 @@ This is a concept file with following syntax for each concept.
 * "İleti" elementine tıkla
 * "İleti" elementini yapıştır
 * "Gönder Button" elementine tıkla
+* "10" saniye bekle

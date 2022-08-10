@@ -41,10 +41,9 @@ This is a concept file with following syntax for each concept.
 * "Stop Video" elementine git
 * "Stop Video" elementine tıkla
 
-# Beğen,Yorum,Paylaş butonu
+# Beğen,Paylaş butonu
 * "Like Button" elementine tıkla
 * "Disslike Button" elementine tıkla
-* "Yorumlar" Elementi görünürse tıkla görünmezse "3" kadar bekle
 * "Paylaş Button" elementine tıkla
 * "1" saniye bekle
 * "Kopyala" elementine tıkla
@@ -64,6 +63,8 @@ This is a concept file with following syntax for each concept.
 
 # Önceki sekmeye geç işlemlerden sonra kapat
 * Switch tab "0"
+* "İnput Search Box" elementinin görünür olması kontrol edilir "10"
+* "Compact Video İnfo" elementine git
 * "Compact Video İnfo" elementinin görünür olması kontrol edilir "10"
 * "Compact Video İnfo" elementini "3" kadar tekrar et
 * Sekmeyi kapat
@@ -71,7 +72,7 @@ This is a concept file with following syntax for each concept.
 * Navigate to back
 
 # Random Kategori
-* "logo" elementine tıkla
+* "https://www.youtube.com" adresine git
 * "logo" elementinin görünür olması kontrol edilir "5"
 * "SelectRandomCategory" elementine göre random geçiş
 

@@ -277,17 +277,17 @@
   },
   {
     "key": "Konu Ekle",
-    "value": "//input[@class='ms-TextField-field PoVCt field-260']",
+    "value": "//input[@aria-label='Konu ekleyin']",
     "type": "xpath"
   },
   {
     "key": "İleti",
-    "value": ".dbf5I.Umiif.SPY2A.tEMfE.sBugl.eQcvi",
-    "type": "css"
+    "value": "//div[@aria-label='İleti gövdesi, çıkmak için Alt+F10’a basın']",
+    "type": "xpath"
   },
   {
     "key": "Gönder Button",
-    "value": "//button[@class='ms-Button ms-Button--primary ms-Button--hasMenu root-276']",
+    "value": "//div[@aria-label='Gönder']",
     "type": "xpath"
   },
   {
@@ -308,6 +308,91 @@
   {
     "key": "Kaydet button",
     "value": "//span[text()='Kaydet']",
+    "type": "xpath"
+  },
+  {
+    "key": "YourProfileControl",
+    "value": ".vcard-names",
+    "type": "css"
+  },
+  {
+    "key": "clickCode",
+    "value": ".feature-callout",
+    "type": "css"
+  },
+  {
+    "key": "codeControl",
+    "value": "//li[@data-platforms='windows,mac']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickCopyUrl",
+    "value": "//clipboard-copy[@value='https://github.com/berfinertgl/UcuzaBiletSelenium.git']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickSearchTextbox",
+    "value": "//div[@class='position-relative']/form",
+    "type": "xpath"
+  },
+  {
+    "key": "code",
+    "value": "//div[@class='CodeMirror-code']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickReadMe",
+    "value": ".Box-btn-octicon.btn-octicon.float-right.mr-n2",
+    "type": "css"
+  },
+  {
+    "key": "githubHomePage",
+    "value": "//p[text()='The complete developer platform to build, scale, and deliver secure software.']",
+    "type": "xpath"
+  },
+  {
+    "key": "SignInButton",
+    "value": "//a[@class='HeaderMenu-link flex-shrink-0 no-underline']",
+    "type": "xpath"
+  },
+  {
+    "key": "signInToGithubControl",
+    "value": ".auth-form-header.p-0",
+    "type": "css"
+  },
+  {
+    "key": "userNameOrEmailAddress",
+    "value": "login_field",
+    "type": "id"
+  },
+  {
+    "key": "password",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "SignIn",
+    "value": "//input[@data-disable-with='Signing in…']",
+    "type": "xpath"
+  },
+  {
+    "key": "ProfilSekmesi",
+    "value": "//summary[@aria-label='View profile and more']",
+    "type": "xpath"
+  },
+  {
+    "key": "signInAsKontrol",
+    "value": "//a[@data-ga-click='Header, go to profile, text:Signed in as']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickYourProfile",
+    "value": "//a[@data-ga-click='Header, go to profile, text:your profile']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickYourProject",
+    "value": "//span[@title='UcuzaBiletSelenium']",
     "type": "xpath"
   },
   {

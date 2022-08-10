@@ -13,7 +13,7 @@ Yotube Scenario ALL
 * Video listelenir ve seçilir
 * Video ekranı
 * Compact video Seçimi
-* Beğen,Yorum,Paylaş butonu
+* Beğen,Paylaş butonu
 * Yeni Sekme
 * Önceki sekmeye geç işlemlerden sonra kapat
 * Random Kategori
@@ -25,6 +25,9 @@ Yotube Scenario ALL
 * Geçmiş
 * Geçmiş Button Kontrol
 * Geçmiş Temizlik
+* Github sekmesine geçiş ve login olma
+* Profili görüntüleme ve repository adresini çekme
+* Mail siteye git
 
 Youtube Scenario 2
 -----------

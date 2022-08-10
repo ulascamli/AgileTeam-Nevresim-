@@ -1059,10 +1059,6 @@ public class Methods {
 
         System.out.println("random sayı"+randomProduct);
     }
-    public void ctrlV(By by){
-
-
-    }
 
 
 }
