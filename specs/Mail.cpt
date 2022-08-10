@@ -6,11 +6,23 @@ This is a concept file with following syntax for each concept.
 * "Mail Oturum Aç Button" elementinin görünür olması kontrol edilir "10"
 * "Mail Oturum Aç Button" elementine tıkla
 * "Mail email" elementinin görünür olması kontrol edilir "10"
-* "Mail email" elementine "ulas_1998@hotmail.com" değerini yaz
+* "Mail email" elementine "ulas.camli@testinium.com" değerini yaz
 * "Mail button" elementine tıkla
 * "Mail password" elementinin görünür olması kontrol edilir "10"
-* "Mail password" elementine "15835847692U" değerini yaz
+* "Mail password" elementine "Qsf4a17X" değerini yaz
 * "Mail button" elementine tıkla
 * "Hayır Button" elementinin görünür olması kontrol edilir "10"
 * "Hayır Button" elementine tıkla
 * "Anasayfa doğrula" elementinin görünür olması kontrol edilir "10"
+* "Mail Yeni İleti Button" elementine tıkla
+* "Mail Kime Gidecek" elementinin görünür olması kontrol edilir "10"
+* "Mail Kime Gidecek" elementine tıkla
+* "Global Adres list" elementinin görünür olması kontrol edilir "10"
+* "Global Adres list" elementine tıkla
+* "İsim Gir" elementine "berfin.ertoglu@testinium.com" değerini yaz
+* "kullanıcı ekle" elementine tıkla
+* "Kaydet button" elementine tıkla
+* "Konu Ekle" elementine "Sa bacım" değerini yaz
+* "İleti" elementine tıkla
+* "İleti" elementini yapıştır
+* "Gönder Button" elementine tıkla
