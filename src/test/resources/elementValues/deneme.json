@@ -266,6 +266,106 @@
     "type": "id"
   },
   {
+    "key": "Mail Yeni İleti Button",
+    "value": ".ms-Button.m2Lea.b4BZP.ms-Button--commandBar.UhijP.root-174",
+    "type": "css"
+  },
+  {
+    "key": "Mail Kime Gidecek",
+    "value": "//div[text()='Kime']",
+    "type": "xpath"
+  },
+  {
+    "key": "Konu Ekle",
+    "value": "//input[@class='ms-TextField-field PoVCt field-260']",
+    "type": "xpath"
+  },
+  {
+    "key": "İleti",
+    "value": ".dbf5I.Umiif.SPY2A.tEMfE.sBugl.eQcvi",
+    "type": "css"
+  },
+  {
+    "key": "Gönder Button",
+    "value": "//button[@class='ms-Button ms-Button--primary ms-Button--hasMenu root-276']",
+    "type": "xpath"
+  },
+  {
+    "key": "Global Adres list",
+    "value": "//button[text()='Default Global Address List']",
+    "type": "xpath"
+  },
+  {
+    "key": "İsim Gir",
+    "value": ".FkI2t",
+    "type": "css"
+  },
+  {
+    "key": "kullanıcı ekle",
+    "value": "//button[@title='Alıcı olarak ekle']",
+    "type": "xpath"
+  },
+  {
+    "key": "Kaydet button",
+    "value": "//span[text()='Kaydet']",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "YourProfileControl",
+    "value": ".vcard-names",
+    "type": "css"
+  },
+  {
+    "key": "clickCode",
+    "value": ".feature-callout",
+    "type": "css"
+  },
+  {
+    "key": "codeControl",
+    "value": "//li[@data-platforms='windows,mac']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickCopyUrl",
+    "value": "//clipboard-copy[@value='https://github.com/berfinertgl/UcuzaBiletSelenium.git']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickSearchTextbox",
+    "value": "//div[@class='position-relative']/form",
+    "type": "xpath"
+  },
+  {
+    "key": "code",
+    "value": "//div[@class='CodeMirror-code']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickReadMe",
+    "value": ".Box-btn-octicon.btn-octicon.float-right.mr-n2",
+    "type": "css"
+  },
+ {
     "key": "githubHomePage",
     "value": "//p[text()='The complete developer platform to build, scale, and deliver secure software.']",
     "type": "xpath"
@@ -314,41 +414,6 @@
     "key": "clickYourProject",
     "value": "//span[@title='UcuzaBiletSelenium']",
     "type": "xpath"
-  },
-  {
-    "key": "YourProfileControl",
-    "value": ".vcard-names",
-    "type": "css"
-  },
-  {
-    "key": "clickCode",
-    "value": ".feature-callout",
-    "type": "css"
-  },
-  {
-    "key": "codeControl",
-    "value": "//li[@data-platforms='windows,mac']",
-    "type": "xpath"
-  },
-  {
-    "key": "clickCopyUrl",
-    "value": "//clipboard-copy[@value='https://github.com/berfinertgl/UcuzaBiletSelenium.git']",
-    "type": "xpath"
-  },
-  {
-    "key": "clickSearchTextbox",
-    "value": "//div[@class='position-relative']/form",
-    "type": "xpath"
-  },
-  {
-    "key": "code",
-    "value": "//div[@class='CodeMirror-code']",
-    "type": "xpath"
-  },
-  {
-    "key": "clickReadMe",
-    "value": ".Box-btn-octicon.btn-octicon.float-right.mr-n2",
-    "type": "css"
-  }
+}
 
 ]
