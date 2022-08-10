@@ -1,0 +1,309 @@
+[
+  {
+  "key": "Search",
+  "value": "//div[@id='search-input']",
+  "type": "xpath"
+  },
+  {
+    "key": "İnput Search Box",
+    "value": "//input[@id='search']",
+    "type": "xpath"
+  },
+  {
+    "key": "Search Button",
+    "value": "//button[@id='search-icon-legacy']",
+    "type": "xpath"
+  },
+  {
+    "key": "Video İnfo",
+    "value": "//div[@id='contents']/ytd-video-renderer/div/ytd-thumbnail",
+    "type": "xpath"
+  },
+  {
+    "key": "Video",
+    "value": ".video-stream.html5-main-video",
+    "type": "css"
+  },
+
+  {
+    "key": "Stop Video",
+    "value": ".ytp-play-button.ytp-button",
+    "type": "css"
+  },
+  {
+    "key": "Skip Advertisement",
+    "value": ".ytp-ad-skip-button.ytp-button",
+    "type": "css"
+  },
+  {
+    "key": "Filtre",
+    "value": "//yt-formatted-string[text()='Aramanızdan']",
+    "type": "xpath"
+  },
+  {
+    "key": "Compact Video İnfo",
+    "value": "//div[@id='items']/ytd-compact-video-renderer/div/ytd-thumbnail",
+    "type": "xpath"
+  },
+  {
+    "key": "Login Button",
+    "value": "//ytd-button-renderer[@class='style-scope ytd-masthead style-suggestive size-small']",
+    "type": "xpath"
+  },
+  {
+    "key": "email",
+    "value": "//input[@type='email']",
+    "type": "xpath"
+  },
+  {
+    "key": "İleri Button",
+    "value": "//span[text()='İleri']",
+    "type": "xpath"
+  },
+  {
+    "key": "password",
+    "value": "//input[@type='password']",
+    "type": "xpath"
+  },
+  {
+    "key": "Tekrar Dene Button",
+    "value": "//span[text()='Tekrar dene']",
+    "type": "xpath"
+  },
+  {
+    "key": "Like Button",
+    "value": "//div[@id='top-level-buttons-computed']/ytd-toggle-button-renderer[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Disslike Button",
+    "value": "//div[@id='top-level-buttons-computed']/ytd-toggle-button-renderer[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "Paylaş Button",
+    "value": "//div[@id='top-level-buttons-computed']/ytd-button-renderer[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Save Button",
+    "value": "//div[@id='top-level-buttons-computed']/ytd-button-renderer[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "Abone Ol Button",
+    "value": "//div[@id='subscribe-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "Yorumlar",
+    "value": "//div[@id='comment-teaser']",
+    "type": "xpath"
+  },
+  {
+    "key": "Paylaş Kapa",
+    "value": "//yt-icon[@class='style-scope ytd-unified-share-panel-renderer']",
+    "type": "xpath"
+  },
+  {
+    "key": "Keşfet Kategori",
+    "value": "//ytd-item-section-renderer[@class='style-scope ytd-section-list-renderer'][1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Kategori",
+    "value": "//div[@id='destination-label-wrapper']/yt-formatted-string[text()='Müzik']",
+    "type": "xpath"
+  },
+  {
+    "key": "Kategori Doğrulama",
+    "value": ".yt-simple-endpoint.style-scope.ytd-topic-channel-details-renderer",
+    "type": "css"
+  },
+  {
+    "key": "keşfet müzik",
+    "value": "//div[@id='contents']/ytd-item-section-renderer/div[3]/ytd-shelf-renderer/div/div[2]/yt-horizontal-list-renderer/div[2]/div/ytd-compact-station-renderer",
+    "type": "xpath"
+  },
+  {
+    "key": "keşfet",
+    "value": "//yt-formatted-string[@class='title style-scope ytd-guide-entry-renderer' and text()='Keşfet']",
+    "type": "xpath"
+  },
+  {
+    "key": "logo",
+    "value": "//yt-icon[@class='style-scope ytd-logo' and @id='logo-icon'][1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Abonelikler",
+    "value": "//yt-formatted-string[text()='Abonelikler']",
+    "type": "xpath"
+  },
+  {
+    "key": "Abonelik Kontrol",
+    "value": "//div[text()='Yeni videoları kaçırmayın']",
+    "type": "xpath"
+  },
+  {
+    "key": "Kitaplık",
+    "value": "//yt-formatted-string[text()='Kitaplık']",
+    "type": "xpath"
+  },
+  {
+    "key": "Kitaplık Kontrol",
+    "value": "//div[text()='Favori videolarınızın keyfini çıkarın']",
+    "type": "xpath"
+  },
+  {
+    "key": "Geçmiş",
+    "value": "//yt-formatted-string[text()='Geçmiş']",
+    "type": "xpath"
+  },
+  {
+    "key": "Geçmiş Kontrol",
+    "value": "//yt-formatted-string[text()='İzlediklerinizin takibini yapın']",
+    "type": "xpath"
+  },
+  {
+    "key": "Arama Geçmişini Duraklat",
+    "value": "//yt-formatted-string[text()='Arama geçmişini duraklat']",
+    "type": "xpath"
+  },
+  {
+    "key": "İzleme Geçmişini Duraklat",
+    "value": "//yt-formatted-string[text()='İzleme geçmişini duraklat']",
+    "type": "xpath"
+  },
+  {
+    "key": "Arama Geçmişini Temizle",
+    "value": "//yt-formatted-string[text()='Tüm arama geçmişini temizle']",
+    "type": "xpath"
+  },
+  {
+    "key": "İzleme Geçmişini Temizle",
+    "value": "//yt-formatted-string[text()='Tüm izleme geçmişini temizle']",
+    "type": "xpath"
+  },
+  {
+    "key": "Mesaj Box Kontrol",
+    "value": "//yt-confirm-dialog-renderer[@class='style-scope ytd-popup-container']",
+    "type": "xpath"
+  },
+  {
+    "key": "Arama Geçmişini Temizle Sil",
+    "value": "//yt-formatted-string[text()='ARAMA GEÇMİŞİNİ TEMİZLE']",
+    "type": "xpath"
+  },
+  {
+    "key": "İptal",
+    "value": "//yt-formatted-string[text()='İPTAL']",
+    "type": "xpath"
+  },
+  {
+    "key": "Duraklat",
+    "value": "//yt-formatted-string[text()='DURAKLAT']",
+    "type": "xpath"
+  },
+  {
+    "key": "İzleme Geçmişini Temizle Sil",
+    "value": "//yt-formatted-string[text()='İZLEME GEÇMİŞİNİ TEMİZLE']",
+    "type": "xpath"
+  },
+  {
+    "key": "SelectRandomCategory",
+    "value": "//iron-selector/yt-chip-cloud-chip-renderer",
+    "type": "xpath"
+  },
+  {
+    "key": "randomVideoSelect",
+    "value": "//div[ @id='contents']/ytd-rich-item-renderer/div",
+    "type": "xpath"
+  },
+  {
+    "key": "Kategori Video",
+    "value": "//div[@id='contents']/ytd-rich-grid-row/div/ytd-rich-item-renderer/div",
+    "type": "xpath"
+  },
+  {
+    "key": "Kopyala",
+    "value": "//yt-formatted-string[text()='Kopyala']",
+    "type": "xpath"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  }
+
+]

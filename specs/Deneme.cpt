@@ -1,0 +1,161 @@
+Created by testinium on 1.08.2021
+
+This is a concept file with following syntax for each concept.
+# Sayfaya gidildiği kontrol edilir
+* "Search" elementinin görünür olması kontrol edilir "10"
+* Şu anki url "https://www.youtube.com/" ile aynı mı
+
+# Giriş işlemi yapılır
+* "Login Button" elementine tıkla
+* "2" saniye bekle
+* "email" elementine "ulas.1998.ulas.1@gmail.com" değerini yaz
+* "İleri Button" elementine tıkla
+* "Tekrar Dene Button" elementinin görünür olması kontrol edilir "10"
+* "https://www.youtube.com/" adresine git
+
+# Arama işlemi yapılır
+* "Search" elementinin görünür olması kontrol edilir "10"
+* "Search" elementinin tıklanabilir olması kontrol edilir "10"
+* "Search" elementine tıkla
+* "İnput Search Box" elementinin tıklanabilir olması kontrol edilir "10"
+* "İnput Search Box" elementine "Pop Smoke İnvincible" değerini yaz
+* "Search Button" elementine tıkla
+
+# Video listelenir ve seçilir
+* "Video İnfo" elementinin görünür olması kontrol edilir "10"
+* "Video İnfo" elementine göre random geçiş
+
+# Video ekranı
+* "Skip Advertisement" Elementi görünürse tıkla görünmezse "30" kadar bekle
+* "Video" hover element
+* "Stop Video" elementinin görünür olması kontrol edilir "10"
+* "Stop Video" elementine git
+* "Stop Video" elementine tıkla
+
+# Compact video Seçimi
+* "Compact Video İnfo" elementine göre random geçiş
+* "Skip Advertisement" Elementi görünürse tıkla görünmezse "30" kadar bekle
+* "Video" elementinin görünür olması kontrol edilir "10"
+* "Video" hover element
+* "Stop Video" elementinin görünür olması kontrol edilir "10"
+* "Stop Video" elementine git
+* "Stop Video" elementine tıkla
+
+# Beğen,Yorum,Paylaş butonu
+* "Like Button" elementine tıkla
+* "Disslike Button" elementine tıkla
+* "Yorumlar" Elementi görünürse tıkla görünmezse "3" kadar bekle
+* "Paylaş Button" elementine tıkla
+* "1" saniye bekle
+* "Kopyala" elementine tıkla
+* "2" saniye bekle
+* "Paylaş Kapa" elementine tıkla
+
+# Yeni Sekme
+* Open new tab "https://www.youtube.com/"
+* Switch tab "1"
+* "Search" elementinin görünür olması kontrol edilir "10"
+* "Search" elementinin tıklanabilir olması kontrol edilir "10"
+* "Search" elementine tıkla
+* "İnput Search Box" elementinin tıklanabilir olması kontrol edilir "10"
+* "İnput Search Box" elementine tıkla
+* "İnput Search Box" elementini yapıştır
+* "Search Button" elementine tıkla
+
+# Önceki sekmeye geç işlemlerden sonra kapat
+* Switch tab "0"
+* "Compact Video İnfo" elementinin görünür olması kontrol edilir "10"
+* "Compact Video İnfo" elementini "3" kadar tekrar et
+* Sekmeyi kapat
+* Switch tab "0"
+* Navigate to back
+
+# Random Kategori
+* "logo" elementine tıkla
+* "logo" elementinin görünür olması kontrol edilir "5"
+* "SelectRandomCategory" elementine göre random geçiş
+
+# Seçilen kategoriden rastgele bir video seçilir ve oynatılır
+* "logo" elementinin görünür olması kontrol edilir "10"
+* "İnput Search Box" elementinin görünür olması kontrol edilir "10"
+* "Kategori Video" elementinin görünür olması kontrol edilir "10"
+* "2" saniye bekle
+* "Kategori Video" elementine göre random geçiş
+* "Video" elementinin görünür olması kontrol edilir "10"
+* "logo" elementinin görünür olması kontrol edilir "10"
+
+# Anasayfaya dönülür ve diğer kategorilere gidilir
+* "logo" elementine tıkla
+* "İnput Search Box" elementinin görünür olması kontrol edilir "10"
+* "SelectRandomCategory" elementinin görünür olması kontrol edilir "10"
+* "SelectRandomCategory" elementini "3" kadar tekrar et
+* "logo" elementinin görünür olması kontrol edilir "10"
+* "İnput Search Box" elementinin görünür olması kontrol edilir "10"
+* "https://www.youtube.com/" adresine git
+
+# Keşfet
+* "keşfet" elementinin görünür olması kontrol edilir "10"
+* "keşfet" elementine tıkla
+* "Kategori" elementine tıkla
+* "Kategori Doğrulama" elementinin görünür olması kontrol edilir "10"
+* "keşfet müzik" elementine göre random geçiş
+* "5" saniye bekle
+* "logo" elementine tıkla
+* "İnput Search Box" elementinin görünür olması kontrol edilir "10"
+
+# Abonelikler
+* "Abonelikler" elementinin görünür olması kontrol edilir "10"
+* "Abonelikler" elementine tıkla
+* "Abonelik Kontrol" elementinin görünür olması kontrol edilir "10"
+
+# Kitaplık
+* "Kitaplık" elementinin görünür olması kontrol edilir "10"
+* "Kitaplık" elementine tıkla
+* "Kitaplık Kontrol" elementinin görünür olması kontrol edilir "10"
+
+# Geçmiş
+* "Geçmiş" elementinin görünür olması kontrol edilir "10"
+* "Geçmiş" elementine tıkla
+* "Geçmiş Kontrol" elementinin görünür olması kontrol edilir "10"
+* "Geçmiş Kontrol" elementine tıkla
+
+# Geçmiş Button Kontrol
+* "Arama Geçmişini Temizle" elementinin görünür olması kontrol edilir "10"
+* "Arama Geçmişini Temizle" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "İptal" elementine tıkla
+* "Arama Geçmişini Duraklat" elementinin görünür olması kontrol edilir "10"
+* "Arama Geçmişini Duraklat" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "İptal" elementine tıkla
+* "İzleme Geçmişini Duraklat" elementinin görünür olması kontrol edilir "10"
+* "İzleme Geçmişini Duraklat" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "İptal" elementine tıkla
+* "İzleme Geçmişini Temizle" elementinin görünür olması kontrol edilir "10"
+* "İzleme Geçmişini Temizle" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "İptal" elementine tıkla
+
+# Geçmiş Temizlik
+* "Arama Geçmişini Duraklat" elementinin görünür olması kontrol edilir "10"
+* "Arama Geçmişini Duraklat" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "Duraklat" elementine tıkla
+* "Arama Geçmişini Temizle" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "Arama Geçmişini Temizle Sil" elementine tıkla
+* "İzleme Geçmişini Duraklat" elementinin görünür olması kontrol edilir "10"
+* "İzleme Geçmişini Duraklat" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "Duraklat" elementine tıkla
+* "İzleme Geçmişini Temizle" elementinin görünür olması kontrol edilir "10"
+* "İzleme Geçmişini Temizle" elementine tıkla
+* "Mesaj Box Kontrol" elementinin görünür olması kontrol edilir "10"
+* "İzleme Geçmişini Temizle Sil" elementine tıkla
+* "Geçmiş Kontrol" elementinin görünür olması kontrol edilir "10"
+
+
+
+
+
