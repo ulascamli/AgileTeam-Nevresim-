@@ -1,0 +1,16 @@
+Created by testinium on 10.08.2022
+
+This is a concept file with following syntax for each concept.
+# Mail siteye git
+* "https://outlook.live.com/owa/" adresine git
+* "Mail Oturum Aç Button" elementinin görünür olması kontrol edilir "10"
+* "Mail Oturum Aç Button" elementine tıkla
+* "Mail email" elementinin görünür olması kontrol edilir "10"
+* "Mail email" elementine "ulas_1998@hotmail.com" değerini yaz
+* "Mail button" elementine tıkla
+* "Mail password" elementinin görünür olması kontrol edilir "10"
+* "Mail password" elementine "15835847692U" değerini yaz
+* "Mail button" elementine tıkla
+* "Hayır Button" elementinin görünür olması kontrol edilir "10"
+* "Hayır Button" elementine tıkla
+* "Anasayfa doğrula" elementinin görünür olması kontrol edilir "10"

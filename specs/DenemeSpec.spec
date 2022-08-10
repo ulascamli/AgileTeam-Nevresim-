@@ -100,5 +100,9 @@ Youtube Scenario 11
 * Geçmiş Button Kontrol
 * Geçmiş Temizlik
 
+youtube Scenario 12
+------------------
+* Mail siteye git
+
 
 

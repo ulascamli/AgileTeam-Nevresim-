@@ -236,34 +236,34 @@
     "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "Mail Oturum Aç Button",
+    "value": "//a[text()='Oturum açın']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "Mail email",
+    "value": "//input[@type='email']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "Mail password",
+    "value": "//input[@type='password']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "Mail button",
+    "value": "//input[@type='submit']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "Anasayfa doğrula",
+    "value": "//span[text()='Outlook']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "Hayır Button",
+    "value": "idBtn_Back",
+    "type": "id"
   },
   {
     "key": "",
