@@ -416,39 +416,89 @@
     "type": ""
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "YourProfileControl",
+    "value": ".vcard-names",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "clickCode",
+    "value": ".feature-callout",
+    "type": "css"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "codeControl",
+    "value": "//li[@data-platforms='windows,mac']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "clickCopyUrl",
+    "value": "//clipboard-copy[@value='https://github.com/berfinertgl/UcuzaBiletSelenium.git']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "clickSearchTextbox",
+    "value": "//div[@class='position-relative']/form",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "code",
+    "value": "//div[@class='CodeMirror-code']",
+    "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
-  }
+    "key": "clickReadMe",
+    "value": ".Box-btn-octicon.btn-octicon.float-right.mr-n2",
+    "type": "css"
+  },
+ {
+    "key": "githubHomePage",
+    "value": "//p[text()='The complete developer platform to build, scale, and deliver secure software.']",
+    "type": "xpath"
+  },
+  {
+    "key": "SignInButton",
+    "value": "//a[@class='HeaderMenu-link flex-shrink-0 no-underline']",
+    "type": "xpath"
+  },
+  {
+    "key": "signInToGithubControl",
+    "value": ".auth-form-header.p-0",
+    "type": "css"
+  },
+  {
+    "key": "userNameOrEmailAddress",
+    "value": "login_field",
+    "type": "id"
+  },
+  {
+    "key": "password",
+    "value": "password",
+    "type": "id"
+  },
+  {
+    "key": "SignIn",
+    "value": "//input[@data-disable-with='Signing in…']",
+    "type": "xpath"
+  },
+  {
+    "key": "ProfilSekmesi",
+    "value": "//summary[@aria-label='View profile and more']",
+    "type": "xpath"
+  },
+  {
+    "key": "signInAsKontrol",
+    "value": "//a[@data-ga-click='Header, go to profile, text:Signed in as']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickYourProfile",
+    "value": "//a[@data-ga-click='Header, go to profile, text:your profile']",
+    "type": "xpath"
+  },
+  {
+    "key": "clickYourProject",
+    "value": "//span[@title='UcuzaBiletSelenium']",
+    "type": "xpath"
+}
 
 ]
