@@ -155,6 +155,18 @@ This is a concept file with following syntax for each concept.
 * "İzleme Geçmişini Temizle Sil" elementine tıkla
 * "Geçmiş Kontrol" elementinin görünür olması kontrol edilir "10"
 
+# 5.video Seçimi
+* "İnput Search Box" elementinin tıklanabilir olması kontrol edilir "10"
+* "İnput Search Box" elementine "Pop Smoke İnvincible" değerini yaz
+* "Search Button" elementine tıkla
+* "Video İnfo" elementinin görünür olması kontrol edilir "10"
+* "5. video" elementine tıkla
+* "Skip Advertisement" Elementi görünürse tıkla görünmezse "30" kadar bekle
+* "Video" hover element
+* "Stop Video" elementinin görünür olması kontrol edilir "10"
+* "Stop Video" elementine git
+* "Stop Video" elementine tıkla
+
 
 
 

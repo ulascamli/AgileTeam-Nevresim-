@@ -231,9 +231,9 @@
     "type": "xpath"
   },
   {
-    "key": "",
-    "value": "",
-    "type": ""
+    "key": "5. video",
+    "value": "//div[@id='contents']/ytd-video-renderer/div/ytd-thumbnail",
+    "type": "xpath"
   },
   {
     "key": "",
