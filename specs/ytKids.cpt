@@ -1,0 +1,67 @@
+
+
+# YouTube sayfasında Youtube kids menüsüne tıklanır.
+* "YoutubeKids" elementinin tıklanabilir olması kontrol edilir
+* "YoutubeKids" elementine tıkla
+*  "3" saniye bekle
+* waitPageLoadCompleteJs
+# Ben ebeveynim butonuna tıklanır.
+* Navigate to forward
+* Switch tab "1"
+* "ImParent" elementinin tıklanabilir olması kontrol edilir
+* "ImParent" elementine tıkla
+*  "4" saniye bekle
+* "KidsNext" elementinin tıklanabilir olması kontrol edilir
+* "KidsNext" elementine tıkla
+
+# Yaş girilir.
+* "SendAge1" elementinin tıklanabilir olması kontrol edilir
+* "SendAge1" elementine "1" değerini yaz
+* "SendAge2" elementinin tıklanabilir olması kontrol edilir
+* "SendAge2" elementine "9" değerini yaz
+* "SendAge3" elementinin tıklanabilir olması kontrol edilir
+* "SendAge3" elementine "9" değerini yaz
+* "SendAge4" elementinin tıklanabilir olması kontrol edilir
+* "SendAge4" elementine "6" değerini yaz
+* "Submit" elementinin tıklanabilir olması kontrol edilir
+* "Submit" elementine tıkla
+* "2" saniye bekle
+*waitPageLoadCompleteJs
+# Açılan video geçilir.
+* "VideoMove" elementinin tıklanabilir olması kontrol edilir
+* "VideoMove" elementine tıkla
+* "2" saniye bekle
+* "VideoNext" elementinin tıklanabilir olması kontrol edilir
+* "VideoNext" elementine tıkla
+* "2" saniye bekle
+* "SkipButton" elementinin tıklanabilir olması kontrol edilir
+* "SkipButton" elementine tıkla
+* "2" saniye bekle
+# Kabul Ediyorum butonuna tıklanır.
+* "ScrollDate" scroll element
+* "3" saniye bekle
+* "ImAgree" elementinin tıklanabilir olması kontrol edilir
+* "ImAgree" elementine tıkla
+* waitPageLoadCompleteJs
+
+# İçerik deneyimlerinden 'Okul Öncesi' seçilir.
+* "chooseAge" elementinin tıklanabilir olması kontrol edilir
+* "chooseAge" elementine tıkla
+* "3" saniye bekle
+* "choose" elementinin tıklanabilir olması kontrol edilir
+* "choose" elementine tıkla
+* "3" saniye bekle
+* "searchOn" elementinin tıklanabilir olması kontrol edilir
+* "searchOn" elementine tıkla
+* "3" saniye bekle
+* waitPageLoadCompleteJs
+# Ebeveyn denetimleri bölümünden resimler kaydırılır ve bitti butonuna tıklanır.
+* "slide" elementinin tıklanabilir olması kontrol edilir
+* "slide" elementine tıkla
+* "finishButton" elementinin tıklanabilir olması kontrol edilir
+* "finishButton" elementine tıkla
+*waitPageLoadCompleteJs
+# Youtube Kids Anasayfasına girildiği doğrulanır.
+* "AssertKids" elementinin var olduğu kontrol edilir
+* Sekmeyi kapat
+

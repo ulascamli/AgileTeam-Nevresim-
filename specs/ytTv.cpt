@@ -1,0 +1,52 @@
+Created by testinium on 9.08.2022
+
+This is a concept file with following syntax for each concept.
+# YouTube Anasayfasından Youtube Tv menüsüne tıklanır.
+* "ytTvClick" elementinin tıklanabilir olması kontrol edilir
+* "ytTvClick" elementine tıkla
+* waitPageLoadCompleteJs
+# Channels kategorisine tıklanır.
+* Navigate to forward
+* Switch tab "1"
+* "ytTvClickChannel" elementinin tıklanabilir olması kontrol edilir
+* "ytTvClickChannel" elementine tıkla
+* "2" saniye bekle
+# Channel kategorisinde rastgele kod yazılır ve açılan ekran kapatılır.
+* "ytTvSendZipCode" elementinin tıklanabilir olması kontrol edilir
+* "ytTvSendZipCode" elementine "12345" değerini yaz
+* "ytTvClickSubmit" elementinin tıklanabilir olması kontrol edilir "3"
+* "ytTvClickSubmit" elementine tıkla
+* "ytTvClickOff" elementinin tıklanabilir olması kontrol edilir "3"
+* "ytTvClickOff" elementine tıkla
+* "2" saniye bekle
+# Plan seçimine  kadar sayfa kaydırılır ve 'Try It Free' butonuna tıklanır.
+* "ytTvScrollTop" scroll element
+* "ytTvTryItFree" elementinin tıklanabilir olması kontrol edilir
+* "ytTvTryItFree" elementine tıkla
+* waitPageLoadCompleteJs
+# Oturum Açma ekranına gelindiği kontrol edilir ve YouTube Tv ana sayfasına dönülür.
+* "ytSignInControl" elementinin text değeri "Sign in" değerine eşit mi
+* "3" saniye bekle
+* "https://tv.youtube.com/welcome/" adresine git
+* waitPageLoadCompleteJs
+# Sayfanın en altına kadar sayfa kaydırılır.
+* "ytTvTopGenresScroll" elementinin görünür olması kontrol edilir "3"
+* "ytTvTopGenresScroll" scroll element
+*waitPageLoadCompleteJs
+# Top Genres bölümünden Browse more genres e tıklanır.
+* "ytTvTopGenres" elementinin tıklanabilir olması kontrol edilir "2"
+* "ytTvTopGenres" elementine tıkla
+* "3" saniye bekle
+* Navigate to forward
+* Switch tab "2"
+# Comedy bölümüne gelinir ve The Simpsons a tıklanır.
+* "ytTvClickTheSimpsons" elementinin görünür olması kontrol edilir "2"
+* "ytTvClickTheSimpsons" scroll element
+* "ytTvClickTheSimpsons" elementinin tıklanabilir olması kontrol edilir "3"
+* "ytTvClickTheSimpsons" elementine tıkla
+* "3" saniye bekle
+# The Simpsons sayfasına gelindiği kontrol edilir.
+* "ytTvCheckTheSimpsons" elementinin text değeri "Watch The Simpsons live" değerine eşit mi
+* "3" saniye bekle
+
+

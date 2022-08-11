@@ -1,0 +1,45 @@
+Created by testinium on 9.08.2022
+
+This is a concept file with following syntax for each concept.
+# YouTube ana sayfasında YouTube Premium menüsüne tıklanır.
+* "ytPremiumClick" elementinin tıklanabilir olması kontrol edilir
+* "ytPremiumClick" elementine tıkla
+* waitPageLoadCompleteJs
+# Ücretsiz deneyin butonuna tıklanır.
+* "ytPremiumPressButton" elementinin tıklanabilir olması kontrol edilir
+* "ytPremiumPressButton" elementine tıkla
+* waitPageLoadCompleteJs
+# Oturum aç sayfasına gidildiği kontrol edilir.
+* "ytSignInControl" elementinin text değeri "Oturum aç" değerine eşit mi
+* "3" saniye bekle
+# YouTube Premium anasayfasına geri dönülür.
+* "https://www.youtube.com/premium" adresine git
+* waitPageLoadCompleteJs
+# Fiyat bilgisi içerme durumu kontrol edilir.
+*  "ytPayControl" elementinin text değeri "₺16,99/ay" değerini içeriyor mu
+*waitPageLoadCompleteJs
+# SSS(Sıkça Sorulan Sorular) bölümüne kadar sayfa aşağı kaydırılır.
+* "ytSSSScroll" elementinin var olduğu kontrol edilir
+* "ytSSSScroll" scroll element
+* waitPageLoadCompleteJs
+# SSS(Sıkça Sorulan Sorular) teker teker açılıp kapatılır.
+* "ytPremiumSSSChoose" elementinin tıklanabilir olması kontrol edilir
+* "ytPremiumSSSChoose" elementine tıkla
+* "1" saniye bekle
+* "ytPremiumSSSChoose" elementine tıkla
+* "1" saniye bekle
+* "ytPremiumSSSChooseTwo" elementinin tıklanabilir olması kontrol edilir
+* "ytPremiumSSSChooseTwo" elementine tıkla
+* "1" saniye bekle
+* "ytPremiumSSSChooseTwo" elementine tıkla
+* "1" saniye bekle
+* "ytPremiumSSSChooseThree" elementinin tıklanabilir olması kontrol edilir
+* "ytPremiumSSSChooseThree" elementine tıkla
+* "1" saniye bekle
+* "ytPremiumSSSChooseThree" elementine tıkla
+* "1" saniye bekle
+* "ytPremiumSSSChooseFour" elementinin tıklanabilir olması kontrol edilir
+* "ytPremiumSSSChooseFour" elementine tıkla
+* "1" saniye bekle
+* "ytPremiumSSSChooseFour" elementine tıkla
+* "1" saniye bekle

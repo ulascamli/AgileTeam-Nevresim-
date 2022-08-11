@@ -511,13 +511,487 @@
     "type": "xpath"
 },
   {
-    "key": "Geri Bildirim",
-    "value": "//h1[text()='Geri bildirim gönder']",
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "ayarlar",
+    "value": "(//a[@role='tablist'])[17]",
     "type": "xpath"
   },
   {
-    "key": "Geri Bildirim Button",
-    "value": "//yt-formatted-string[text()='Geri bildirim gönder']",
+    "key": "ileri",
+    "value": "(//span[@jsname='V67aGc'])[2]",
     "type": "xpath"
+  },
+  {
+    "key": "icerik",
+    "value": "//a[@title='İçerik bildirme geçmişi']",
+    "type": "xpath"
+  },
+  {
+    "key": "oturumac",
+    "value": "//a[@href='https://accounts.google.com/ServiceLogin?service=youtube&uilel=3&passive=true&continue=https%3A%2F%2Fwww.youtube.com%2Fsignin%3Faction_handle_signin%3Dtrue%26app%3Ddesktop%26hl%3Dtr%26next%3D%252Freporthistory&hl=tr']",
+    "type": "xpath"
+  },
+  {
+    "key": "yardım",
+    "value": "(//a[@id='endpoint'])[19]",
+    "type": "xpath"
+  },
+  {
+    "key": "yardımsayfası",
+    "value": "//button[@class='help-panel-header__close-button']",
+    "type": "xpath"
+  },
+  {
+    "key": "geribildirim",
+    "value": "//a[@title='Geri bildirim gönder']",
+    "type": "xpath"
+  },
+  {
+    "key": "gönder",
+    "value": "//button[@key='send']",
+    "type": "xpath"
+  },
+  {
+    "key": "button",
+    "value": "(//button[@type='button'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "Yardım Kapatma Button",
+    "value": "//button[@aria-label='Yardım Panelini Kapat']",
+    "type": "xpath"
+  },
+  {
+    "key": "YoutubeKids",
+    "value": "//yt-formatted-string[text()='YouTube Kids']",
+    "type": "xpath"
+  },
+  {
+    "key": "ImParent",
+    "value": "parent-button",
+    "type": "id"
+  },
+  {
+    "key": "KidsNext",
+    "value": "next-button",
+    "type": "id"
+  },
+  {
+    "key": "SendAge1",
+    "value": "onboarding-age-gate-digit-1",
+    "type": "id"
+  },  {
+  "key": "SendAge2",
+  "value": "onboarding-age-gate-digit-2",
+  "type": "id"
+},  {
+  "key": "SendAge3",
+  "value": "onboarding-age-gate-digit-3",
+  "type": "id"
+},  {
+  "key": "SendAge4",
+  "value": "onboarding-age-gate-digit-4",
+  "type": "id"
+},
+  {
+    "key": "Submit",
+    "value": ".flow-buttons.row.style-scope.ytk-kids-onboarding-age-gate-renderer>.style-scope.ytk-kids-onboarding-age-gate-renderer",
+    "type": "css"
+  },
+  {
+    "key": "VideoMove",
+    "value": "show-text-link",
+    "type": "id"
+  },
+  {
+    "key": "VideoNext",
+    "value": "//button[@class='style-scope ytk-kids-flow-text-info-renderer']",
+    "type": "xpath"
+  },
+  {
+    "key": "SkipButton",
+    "value": ".button-as-link.margin-right.style-scope.ytk-kids-select-account-page-renderer",
+    "type": "css"
+  },
+  {
+    "key": "ImAgree",
+    "value": ".flow-buttons.style-scope.ytk-kids-onboarding-parental-notice-page-renderer",
+    "type": "css"
+  },
+  {
+    "key": "ScrollDate",
+    "value": "//*[text()='Tarih: 7 Temmuz 2020']",
+    "type": "xpath"
+  },
+  {
+    "key": "chooseAge",
+    "value": "//div[@class='style-scope ytk-kids-corpus-selection-renderer']/div[1]/ytk-kids-age-selection-card-renderer[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "choose",
+    "value": "select-link",
+    "type": "id"
+  },
+  {
+    "key": "searchOn",
+    "value": "#flow-action-row>#search-on-button",
+    "type": "css"
+  },
+  {
+    "key": "slide",
+    "value": "#carousel-container>#right-arrow",
+    "type": "css"
+  },
+  {
+    "key": "finishButton",
+    "value": "done-button",
+    "type": "id"
+  },
+  {
+    "key": "AssertKids",
+    "value": ".search-box.style-scope.ytk-search-box",
+    "type": "css"
+  },
+
+  {
+    "key": "ytSignInControl",
+    "value": "//h1[@class='ahT6S ']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "ytPremiumClick",
+    "value": "//a[@title='YouTube Premium']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytPremiumPressButton",
+    "value": "manage-subscription-button",
+    "type": "id"
+  },
+  {
+    "key": "ytPayControl",
+    "value": "//yt-formatted-string[@class='metadata-item style-scope yt-unlimited-page-header-renderer']/span[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytSSSScroll",
+    "value": "//div[@class='container style-scope yt-faq-section-renderer']/span",
+    "type": "xpath"
+  },
+  {
+    "key": "ytPremiumSSSChoose",
+    "value": "(//div[@class='head style-scope yt-generic-faq-question-renderer']/span)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytPremiumSSSChooseTwo",
+    "value": "(//div[@class='head style-scope yt-generic-faq-question-renderer']/span)[2]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytPremiumSSSChooseThree",
+    "value": "(//div[@class='head style-scope yt-generic-faq-question-renderer']/span)[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytPremiumSSSChooseFour",
+    "value": "(//div[@class='head style-scope yt-generic-faq-question-renderer']/span)[4]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvClick",
+    "value": "//*[text()='YouTube TV']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvClickChannel",
+    "value": "(//nav[@class='lb-nav lb-js-desktop-nav-container']/div/a)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvSendZipCode",
+    "value": "(//div[@class='input__field-wrapper']/input)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvClickSubmit",
+    "value": "(//button[@class='js-input-button input__submit-button ytv-button']/span)[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvClickOff",
+    "value": ".js-dialog-hide.mdc-dialog__hide",
+    "type": "css"
+  },
+  {
+    "key": "ytTvTryItFree",
+    "value": "(//span[@class='ytv-button__text'])[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvScrollTop",
+    "value": "(//div[@class='ytv-plan-card__text-content'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvTopGenres",
+    "value": "//a[@href='https://tv.youtube.com/directory']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvTopGenresScroll",
+    "value": "(//h3[@class='ytv-footer__sitemap-branch-title'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvClickTheSimpsons",
+    "value": "(//a[@href='/browse/the-simpsons-UCSKE3leoX9KNm23E0nkTSFA'])[1]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytTvCheckTheSimpsons",
+    "value": ".HERO-banner-title.HERO-banner-title-show",
+    "type": "css"
+  },
+  {
+    "key": "ytMusicClick",
+    "value": "//*[text()='YouTube Music']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytMusicExplore",
+    "value": "//* [text()='Keşfet']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytMusicBooks",
+    "value": "//* [text()='Kitaplık']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytMusicAccountCheck",
+    "value": "#headingSubtext",
+    "type": "css"
+  },
+  {
+    "key": "ytMusicSearchClick",
+    "value": ".search-icon.style-scope.ytmusic-search-box>.style-scope.tp-yt-paper-icon-button",
+    "type": "css"
+  },
+  {
+    "key": "ytMusicSearch",
+    "value": "//input[@class='style-scope ytmusic-search-box']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytMusicAdvertisement",
+    "value": ".ytp-ad-skip-button.ytp-button",
+    "type": "css"
+  },
+  {
+    "key": "ytMusicPlaySong",
+    "value": "//a[@href='watch?v=9jK-NcRmVcw']",
+    "type": "xpath"
+  },
+  {
+    "key": "ytMusicOffPopup",
+    "value": "(//tp-yt-paper-button[@id='button']/yt-formatted-string)[3]",
+    "type": "xpath"
+  },
+  {
+    "key": "ytMusicStopSong",
+    "value": ".play-pause-button.style-scope.ytmusic-player-bar",
+    "type": "css"
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
+  },
+  {
+    "key": "",
+    "value": "",
+    "type": ""
   }
+
 ]

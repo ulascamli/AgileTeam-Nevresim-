@@ -168,10 +168,28 @@ This is a concept file with following syntax for each concept.
 * "Stop Video" elementine git
 * "Stop Video" elementine tıkla
 
-# Geri Bildirim
-* "Geri Bildirim Button" elementinin görünür olması kontrol edilir "10"
-* "Geri Bildirim Button" elementine git
-* "Geri Bildirim Button" elementine tıkla
+# Ayarlar kontrol edilir
+* "2" saniye bekle
+* "ayarlar" hover and click element
+* waitPageLoadCompleteJs
+* "ileri" elementinin tıklanabilir olması kontrol edilir
+* "https://www.youtube.com/" adresine git
+* waitPageLoadCompleteJs
+
+# İcerik bildirme gecmisi kontrol edilir
+* "icerik" hover and click element
+* waitPageLoadCompleteJs
+* "oturumac" elementinin tıklanabilir olması kontrol edilir
+
+# Yardım sayfası kontrol edilir
+* "yardım" elementine tıkla
+* "3" saniye bekle
+//* "yardımsayfası" elementinin tıklanabilir olması kontrol edilir
+
+# Geri bildirim sayfası kontrol edilir
+* "geribildirim" elementinin tıklanabilir olması kontrol edilir
+* "geribildirim" elementine tıkla
+//* "button" elementinin tıklanabilir olması kontrol edilir
 
 
 

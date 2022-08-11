@@ -1,0 +1,41 @@
+Created by testinium on 10.08.2022
+
+This is a concept file with following syntax for each concept.
+# Youtube ana sayfasından YouTube Music menüsüne tıklanır.
+* "ytMusicClick" elementinin tıklanabilir olması kontrol edilir "10"
+* Open new tab "https://music.youtube.com"
+* Sekmeyi kapat
+* Switch tab "0"
+* Navigate to forward
+
+# Keşfet menüsüne tıklanır.
+* "ytMusicExplore" elementinin tıklanabilir olması kontrol edilir "2"
+* "ytMusicExplore" elementine tıkla
+* waitPageLoadCompleteJs
+# Kitaplık Menüsüne tıklanır oturum açmadan YouTube Music anasayfasına dönülür.
+* "ytMusicBooks" elementinin tıklanabilir olması kontrol edilir "2"
+* "ytMusicBooks" elementine tıkla
+* "ytMusicAccountCheck" elementinin text değeri "YouTube Müzik'e devam edin" değerini içeriyor mu
+* waitPageLoadCompleteJs
+* Şu anki url "https://accounts.google.com/signin/v2/identifier" ile farklı mı
+* "https://music.youtube.com" adresine git
+# The final countdown şarkısı aratılır
+* "ytMusicSearchClick" elementine tıkla
+* "ytMusicSearch" elementine "The Final Countdown" değerini yaz
+* "ytMusicSearch" elementinde enter komutunu bas
+
+
+# The Final Countdown şarkısı 20 sn oynatılır.
+* "ytMusicPlaySong" elementinin tıklanabilir olması kontrol edilir
+* "ytMusicPlaySong" elementine tıkla
+*  "ytMusicAdvertisement" Elementi görünürse tıkla görünmezse "30" kadar bekle
+* "ytMusicOffPopup" elementinin tıklanabilir olması kontrol edilir
+* "ytMusicOffPopup" elementine tıkla
+* "20" saniye bekle
+
+# Şarkıyı durdur butonuna tıklanır ve 3 saniye beklenir.
+* "ytMusicStopSong" elementinin tıklanabilir olması kontrol edilir
+* "ytMusicStopSong" elementine tıkla
+* "3" saniye bekle
+* Sekmeyi kapat
+

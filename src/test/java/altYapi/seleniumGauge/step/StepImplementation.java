@@ -557,15 +557,21 @@ public class StepImplementation {
         driver.findElement(methods.getBy(key)).sendKeys(Keys.ENTER);
     }
     @Step("<key> elementine göre random geçiş")
-    public void random(String key){
-        methods.randomChoose(methods.getBy(key));
-
+    public void random(String key) {
+        if (methods.checkElementClickable(methods.getBy(key))) {
+            methods.randomChoose(methods.getBy(key));
+        }
+        else {
+            methods.randomChoose(methods.getBy(key));
+        }
     }
     @Step("<key> Elementi görünürse tıkla görünmezse <timeout> kadar bekle")
     public void islem(String key,long timeout){
 
       if (methods.isElementVisible(methods.getBy(key),timeout)){
-        methods.clickElement(methods.getBy(key));
+
+              methods.clickElement(methods.getBy(key));
+
       }
 
             methods.isElementInVisible(methods.getBy(key),timeout);
@@ -574,8 +580,14 @@ public class StepImplementation {
     @Step("<key> elementini <repeat> kadar tekrar et")
     public void tekrarla(String key, int repeat){
         for (int i=0; i<repeat;i++){
-            methods.randomChoose(methods.getBy(key));
-            methods.waitBySeconds(3);
+            if (methods.checkElementClickable(methods.getBy(key))) {
+                methods.randomChoose(methods.getBy(key));
+                methods.waitBySeconds(3);
+            }
+            else {
+                methods.randomChoose(methods.getBy(key));
+                methods.waitBySeconds(3);
+            }
         }
     }
 

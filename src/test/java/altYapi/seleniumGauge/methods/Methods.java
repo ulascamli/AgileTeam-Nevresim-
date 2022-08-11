@@ -561,8 +561,14 @@ public class Methods {
         assertTrue(isElementClickable(by, timeout),by.toString() + " elementi tıklanabilir değil.");
     }
 
-    public void checkElementClickable(By by){
+    public boolean checkElementClickable(By by){
         checkElementClickable(by,30);
+        try {
+            wait.until(ExpectedConditions.visibilityOfElementLocated(by));
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
     }
 
     public boolean isElementVisible(By by, long timeout){
@@ -1055,6 +1061,7 @@ public class Methods {
         }
         Actions actions = new Actions(driver);
         actions.moveToElement(findElement(by)).build().perform();
+
         list.get(randomProduct).click();
 
         System.out.println("random sayı"+randomProduct);
