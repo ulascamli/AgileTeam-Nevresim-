@@ -8,8 +8,8 @@ This is a concept file with following syntax for each concept.
 * "githubHomePage" elementinin görünür olması kontrol edilir "10"
 * "SignInButton" elementine tıkla
 * "signInToGithubControl" elementinin görünür olması kontrol edilir "10"
-* "userNameOrEmailAddress" elementine "berfinertogluu@gmail.com" değerini yaz
-* "password" elementine "120317Bo." değerini yaz
+* "userNameOrEmailAddress" elementine "ulas_1998@hotmail.com" değerini yaz
+* "password" elementine "ulas283U" değerini yaz
 * "SignIn" elementine tıkla
 * "2" saniye bekle
 
@@ -23,7 +23,7 @@ This is a concept file with following syntax for each concept.
 * "2" saniye bekle
 * "clickCode" elementine tıkla
 * "codeControl" elementinin görünür olması kontrol edilir "10"
-* "clickCopyUrl" elementine tıkla
+* "link al" elementine tıkla
 * "clickCode" elementine tıkla
 * "2" saniye bekle
 * "clickReadMe" elementine tıkla

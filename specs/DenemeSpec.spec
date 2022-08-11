@@ -89,7 +89,7 @@ Youtube Scenario 9
 
 Youtube Scenario 10
 -------------------
-* Sayfaya gidildiği kontrol edili
+* Sayfaya gidildiği kontrol edilir
 * Giriş işlemi yapılır
 * Keşfet
 * Abonelikler
@@ -98,7 +98,7 @@ Youtube Scenario 10
 
 Youtube Scenario 11
 -------------------
-* Sayfaya gidildiği kontrol edili
+* Sayfaya gidildiği kontrol edilir
 * Giriş işlemi yapılır
 * Geçmiş Button Kontrol
 * Geçmiş Temizlik
@@ -106,6 +106,12 @@ Youtube Scenario 11
 youtube Scenario 12
 ------------------
 * Mail siteye git
+
+Youtube Scenario 13
+----------------
+* Sayfaya gidildiği kontrol edilir
+* Geri Bildirim
+
 
 
 

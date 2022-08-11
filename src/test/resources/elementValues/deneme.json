@@ -267,8 +267,8 @@
   },
   {
     "key": "Mail Yeni İleti Button",
-    "value": ".ms-Button.m2Lea.b4BZP.ms-Button--commandBar.UhijP.root-174",
-    "type": "css"
+    "value": "//span[text()='Yeni ileti']",
+    "type": "xpath"
   },
   {
     "key": "Mail Kime Gidecek",
@@ -327,7 +327,7 @@
   },
   {
     "key": "clickCopyUrl",
-    "value": "//clipboard-copy[@value='https://github.com/berfinertgl/UcuzaBiletSelenium.git']",
+    "value": "//clipboard-copy[@value='https://github.com/ulascamli/AgileTeam-Nevresim-.git']",
     "type": "xpath"
   },
   {
@@ -392,7 +392,17 @@
   },
   {
     "key": "clickYourProject",
-    "value": "//span[@title='UcuzaBiletSelenium']",
+    "value": "//a[@href='/ulascamli/AgileTeam-Nevresim-']",
+    "type": "xpath"
+  },
+  {
+    "key": "Kime gönderilsin",
+    "value": "//div[@aria-label='Kime']",
+    "type": "xpath"
+  },
+  {
+    "key": "link al",
+    "value": "//clipboard-copy[@value='https://github.com/ulascamli/AgileTeam-Nevresim-.git']",
     "type": "xpath"
   },
   {
@@ -499,6 +509,15 @@
     "key": "clickYourProject",
     "value": "//span[@title='UcuzaBiletSelenium']",
     "type": "xpath"
-}
-
+},
+  {
+    "key": "Geri Bildirim",
+    "value": "//h1[text()='Geri bildirim gönder']",
+    "type": "xpath"
+  },
+  {
+    "key": "Geri Bildirim Button",
+    "value": "//yt-formatted-string[text()='Geri bildirim gönder']",
+    "type": "xpath"
+  }
 ]
