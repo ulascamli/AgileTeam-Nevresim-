@@ -170,23 +170,30 @@ This is a concept file with following syntax for each concept.
 
 # Ayarlar kontrol edilir
 * "2" saniye bekle
-* "ayarlar" hover and click element
+* "geribildirim" elementine git
+* "ayarlar" elementinin görünür olması kontrol edilir "10"
+* "ayarlar" elementine tıkla
 * waitPageLoadCompleteJs
 * "ileri" elementinin tıklanabilir olması kontrol edilir
 * "https://www.youtube.com/" adresine git
 * waitPageLoadCompleteJs
+* "logo" elementinin görünür olması kontrol edilir "10"
+* "3" saniye bekle
 
 # İcerik bildirme gecmisi kontrol edilir
+* "logo" elementinin görünür olması kontrol edilir "10"
 * "icerik" hover and click element
-* waitPageLoadCompleteJs
+* "oturumac" elementinin görünür olması kontrol edilir "10"
 * "oturumac" elementinin tıklanabilir olması kontrol edilir
 
 # Yardım sayfası kontrol edilir
+* "logo" elementinin görünür olması kontrol edilir "10"
 * "yardım" elementine tıkla
 * "3" saniye bekle
 //* "yardımsayfası" elementinin tıklanabilir olması kontrol edilir
 
 # Geri bildirim sayfası kontrol edilir
+* "logo" elementinin görünür olması kontrol edilir "10"
 * "geribildirim" elementinin tıklanabilir olması kontrol edilir
 * "geribildirim" elementine tıkla
 //* "button" elementinin tıklanabilir olması kontrol edilir

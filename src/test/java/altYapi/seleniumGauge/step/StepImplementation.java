@@ -558,12 +558,8 @@ public class StepImplementation {
     }
     @Step("<key> elementine göre random geçiş")
     public void random(String key) {
-        if (methods.checkElementClickable(methods.getBy(key))) {
             methods.randomChoose(methods.getBy(key));
-        }
-        else {
-            methods.randomChoose(methods.getBy(key));
-        }
+
     }
     @Step("<key> Elementi görünürse tıkla görünmezse <timeout> kadar bekle")
     public void islem(String key,long timeout){

@@ -122,7 +122,7 @@
   },
   {
     "key": "keşfet müzik",
-    "value": "//div[@id='contents']/ytd-item-section-renderer/div[3]/ytd-shelf-renderer/div/div[2]/yt-horizontal-list-renderer/div[2]/div/ytd-compact-station-renderer",
+    "value": "//div[@id='contents' and @class='style-scope ytd-shelf-renderer']/yt-horizontal-list-renderer/div[2]/div/ytd-compact-station-renderer/div/ytd-thumbnail",
     "type": "xpath"
   },
   {

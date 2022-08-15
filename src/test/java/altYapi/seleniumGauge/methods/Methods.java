@@ -1061,7 +1061,6 @@ public class Methods {
         }
         Actions actions = new Actions(driver);
         actions.moveToElement(findElement(by)).build().perform();
-
         list.get(randomProduct).click();
 
         System.out.println("random sayı"+randomProduct);
